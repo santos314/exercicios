@@ -1,18 +1,8 @@
-peso = 78
-altura = 1.85
+#exercicio 6
 
-# Cálculo do IMC
-imc = peso / (altura ** 2)
-print(f"Seu IMC é: {imc:.2f}")
+peso = float(input("Peso em kg: "))
+altura = float(input("Altura em metros: "))
 
-# Classificação do IMC
-classificacao = (
-    "Abaixo do peso" if imc < 18.5 else
-    "Peso normal" if imc < 25 else
-    "Sobrepeso" if imc < 30 else
-    "Obesidade grau 1" if imc < 35 else
-    "Obesidade grau 2" if imc < 40 else
-    "Obesidade grau 3 (obesidade mórbida)"
-)
+imc = peso / (altura * altura)
 
-print(f"Classificação: {classificacao}")
+print("IMC:", round(imc, 2))
