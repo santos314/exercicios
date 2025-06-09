@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba3bd38d-a89b-42d4-8ca4-a9f7b6a46812" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/atividades/ex 1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atividades/ex 6.py" beforeDir="false" afterPath="$PROJECT_DIR$/atividades/ex 6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atividades/ex 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/atividades/ex 1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.ex 1.executor": "Run",
     "Python.ex 6.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
