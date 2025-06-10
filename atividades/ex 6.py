@@ -3,6 +3,6 @@
 peso = float(input("Peso em kg: "))
 altura = float(input("Altura em metros: "))
 
-imc = peso / (altura * altura)
+imc = peso / (altura ** 2)
 
-print("IMC:", round(imc, 2))
+print("IMC:", imc)

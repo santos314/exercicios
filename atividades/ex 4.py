@@ -1,6 +1,4 @@
-
 PopulaçãoMundial = 8090000000
-
 TaxaCrescimento = 0.011
 
 
@@ -8,4 +6,4 @@ TaxaCrescimento = 0.011
 
 for ano in range(1, 6):
     CalculoPopulacãoFutura = PopulaçãoMundial * (1 + TaxaCrescimento) ** ano
-    print(f"População estimada em {ano} ano(s): {PopulacaoFutura:,.0f}")
+    print(f"População estimada em {ano} ano(s): PopulacaoFutura:,.0f}")
